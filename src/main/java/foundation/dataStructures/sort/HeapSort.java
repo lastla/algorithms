@@ -24,6 +24,7 @@ public class HeapSort {
             down(nums,0,i);
         }
     }
+    //建堆
     private static void heapify(int[] nums,int size){
         for (int i = size / 2 - 1; i >=0 ; i--) {  //最后一个叶子节点的父节点就是最后一个非叶子节点
             down(nums,i,size);

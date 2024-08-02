@@ -4,6 +4,7 @@ import com.google.common.hash.Hashing;
 
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
+import java.util.HashMap;
 
 public class HashTest {
     public static void main(String[] args) {
