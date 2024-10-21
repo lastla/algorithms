@@ -2,7 +2,7 @@ package Leetcode;
 
 // 最小覆盖字串，滑动窗口解
 public class Leetcode_76 {
-    public String minWindow(String s, String t) {
+    public static String minWindow(String s, String t) {
         int tLen = t.length();
         int sLen = s.length();
         if (sLen < tLen) {
@@ -38,5 +38,11 @@ public class Leetcode_76 {
         }
 
         return end - start == sLen + 1 ? "" : s.substring(start, end + 1);
+    }
+
+    public static void main(String[] args) {
+        String s = "ADOBECODEBANC";
+        String t = "ABC";
+        System.out.println(minWindow(s, t));
     }
 }
