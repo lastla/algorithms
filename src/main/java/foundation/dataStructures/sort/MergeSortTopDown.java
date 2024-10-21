@@ -57,8 +57,8 @@ public class MergeSortTopDown {
         System.out.println(Arrays.toString(a));
         sort(a);
         System.out.println(Arrays.toString(a));
-        Stack<Integer> stack = new Stack();
+
 
     }
-    //
+
 }
